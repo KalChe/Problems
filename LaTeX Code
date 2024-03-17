@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath} % Required for mathematical symbols
+
+\title{Problem Set}
+\author{Kalyan Cherukuri}
+\date{March 2024}
+
+\begin{document}
+\maketitle
+
+\section{Problems}
+
+\subsection{Pyramid Maximization}
+Let $w$ denote the largest pyramid that can be inscribed inside the largest cone that can be inscribed in a sphere radius $12$. Find the volume of pyramid $w$.
+
+\subsection{2024 Trouble}
+Denote $m$ and $n$ as two distinct positive integers such that $m \neq n$ and $m(m^2 + n^2) = 2024$. Find the sum of all the possible positive values of $n^2$ given that $m$ is a positive integer factor of $2024$.
+
+\subsection{Taxicab}
+A famous story of G.H. Hardy and Srinivasa Ramanujan goes as follows: Hardy was there to meet his good friend Ramanujan in the hospital and referenced how dull his Taxi number was. The number was 1729. Ramanujan famously remarked, “No, it is a very interesting number.” This number was, in fact, the first positive integer that could be written as the sum of two cubes in two different ways! Let me elaborate: $1729 = 10^3 + 9^3 = 12^3 + 1^3$. Find the next number that can be written as the sum of 2 cubes in two different ways.
+
+\subsection{Bakery Store}
+Lamar has 59 dollars. What is the number of cupcakes and cookies she will be able to purchase, given that cupcakes cost 7 dollars and cookies cost 6 dollars, and the shop doesn’t sell partial products? The answer can be expressed as $(x, y)$, where $x$ denotes the number of cupcakes and $y$ denotes the number of cookies Lamar can buy. Compute $x+y$, given that Lamar spends all of her money.
+
+\subsection{Chinese Remainder Theorem}
+If the remainder when a number is divided by $13$ is $2$, divided by $17$ is $3$, and divided by $9$ is $1$, find the smallest number that satisfies these conditions, given that it has a factor of $16$.
+
+\subsection{Quadratic}
+Let $f(x)$ denote a quadratic polynomial that has the following properties:
+\begin{itemize}
+    \item Has one zero
+    \item Concave down
+    \item These points lie on the curve: $(1,0)$, $(2,-3)$, $(-1,-12)$
+\end{itemize}
+The answer can be written as $ax^2 + bx + c$. Compute the sum of $a$, $b$, $c$.
+
+\subsection{Floor Trouble}
+Let $X$ denote an integer over the interval $(0, 100]$, compute the number of values of $X$ given that at least one of $\left\lfloor\frac{X}{3}\right\rfloor$, $\left\lfloor\frac{X}{4}\right\rfloor$, $\left\lfloor\frac{X}{5}\right\rfloor$ is a perfect square. Note: $\left\lfloor x \right\rfloor$ denotes the largest integer less than or equal to $x$. For example, $\left\lfloor 13.21 \right\rfloor$'s floor would be $13$. 
+
+\subsection{Nested Function}
+Denote a function $w(n)$, where it returns the sum of (sides) + (vertices) + (diagonals) of a polyhedron with $n$ sides. Compute the sum of the digits of $w(w(35))$.
+
+
+
+\subsection{Graph Theory}
+Denote \( \frac{x^2}{16} + \frac{y^2}{25} = 8 \) and \( \frac{x^2}{16} \cdot \frac{y^2}{25} = 16 \) in the Cartesian plane. If these two functions intersect exactly 4 times, find the area of the quadrilateral in the Cartesian plane using these 4 points as vertices.
+
+
+\subsection{Arithmetic Sequences}
+How many ways are there to write 17 as the last term of an arithmetic sequence, with a positive integer difference? Note the following: Each sequence must start with a positive integer, and the common difference must be a non-negative integer. For example: If we wanted 5 as the last number we could have the following sequences: 1,3,5 or 2,5 or 5.
+
+\subsection{``13-8'' Special Pairs}
+A number in base 13 is equivalent to another number’s representation in base 8. For example, 14 and 9 would be two numbers that satisfy this condition since their representation in base 13 and 8 are equivalent, respectively (11 in base 13 is 14, 11 in base 8 is 9, so their pair is $(14,9)$). Let’s name all such pairs as ``13-8'' special. Find the sum of the largest ``13-8'' special pair, given that the product of the pair doesn’t exceed 1000 when evaluated. Note: The pair can be expressed as $(x,y)$, compute $x+y$.
+
+\subsection{Expected Number}
+Abhi wants you to analyze his grades. Today is the day of his finals in $7$ classes, and unsurprisingly he is failing all of his classes! However, if he passes the final exam, he can pass the class, surprisingly! The probability he fails is $50\%$ on the first exam. For each subsequent exam, he is expected to pass with a $25\%$ probability if he failed his prior exam, otherwise, it is $60\%$. 
+What is the expected number of classes he is expected to pass? Your answer can be expressed as $\frac{m}{n}$, where $m$ and $n$ are relatively prime integers. Compute $m+n$.
+
+\subsection{Coordinate Geometry}
+\subsection{Cement Troubles}
+\subsection{Gravity}
+
+
+\newpage
+
+\section{Answer Key}
+\subsection{1296}
+\subsection{2262}
+\subsection{4104}
+\subsection{9}
+\subsection{496}
+\subsection{0}
+\subsection{47}
+\subsection{36}
+\subsection{320}
+\subsection{65}
+\subsection{}
+\subsection{51}
+\subsection{}
+\subsection{}
+\subsection{}
+
+\end{document}
