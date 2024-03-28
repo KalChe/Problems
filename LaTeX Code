@@ -79,3 +79,4 @@ Given the equation $ \lfloor 7x \rfloor + \lfloor 3x \rfloor = 30 $, where $x$ i
 It is commonly known that the gravity and trajectory of a projectile can be represented in this form: $h = -16{t^2} + {v_0}t + {h_0}$. Note: t represents the time passed, ${v_0}$ represents the initial velocity,  ${h_0}$ represents the initial launch height, and h represents the overall height in feet after t time. Bob fires a cannonball at an unknown height at a speed of 40 meters per second. Bob attached a sensor on the cannonball to track the maximum height of the cannonball. However, due to his poor vision he isn't completely sure the exact height. Instead he remembers that the maximum height of the cannonball lies between this continuous interval, $[32, 67]$. If the range of values for ${h_0}$, can be expressed over this continuous interval $[a, b]$, where $a$ and $b$ are positive integers, compute $a+b$.
 
 \newpage
+\end{document}
