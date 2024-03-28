@@ -8,6 +8,15 @@
 
 \begin{document}
 \maketitle
+\section{Introduction}
+Hello! I look forward to writing these problems, I am a freshman at Metea Valley High School, who has always been interested in math competitions. You can often find my name floating around in association with numerous larger competitions, such as Math Kangaroo, AMC 10/AIME, Chicago ARML, or at a local scale if you live in Aurora, with competitions like the North Suburban Math League or ICTM competitions at the regional and state level. You can contact me at kalyan.cherukuri5@gmail.com for any appeals/questions or such.
+
+
+\section{PROBLEMS START ON THE NEXT PAGE}
+\newpage
+
+
+
 
 \section{Problems}
 
@@ -54,31 +63,19 @@ How many ways are there to write 17 as the last term of an arithmetic sequence, 
 A number in base 13 is equivalent to another number’s representation in base 8. For example, 14 and 9 would be two numbers that satisfy this condition since their representation in base 13 and 8 are equivalent, respectively (11 in base 13 is 14, 11 in base 8 is 9, so their pair is $(14,9)$). Let’s name all such pairs as ``13-8'' special. Find the sum of the largest ``13-8'' special pair, given that the product of the pair doesn’t exceed 1000 when evaluated. Note: The pair can be expressed as $(x,y)$, compute $x+y$.
 
 \subsection{Expected Number}
-Abhi wants you to analyze his grades. Today is the day of his finals in $7$ classes, and unsurprisingly he is failing all of his classes! However, if he passes the final exam, he can pass the class, surprisingly! The probability he fails is $50\%$ on the first exam. For each subsequent exam, he is expected to pass with a $25\%$ probability if he failed his prior exam, otherwise, it is $60\%$. 
-What is the expected number of classes he is expected to pass? Your answer can be expressed as $\frac{m}{n}$, where $m$ and $n$ are relatively prime integers. Compute $m+n$.
+Bob wants you to analyze his grades. Today is the day of his finals in $7$ classes, and unsurprisingly he is failing all of his classes! However, if he passes the final exam, he can pass the class, surprisingly! The probability he fails is $50\%$ on the first exam. For each subsequent exam, he is expected to pass with a $25\%$ probability if he failed his prior exam, otherwise, it is $60\%$. 
+What is the expected number of classes he is expected to pass? Your answer can be expressed as $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Compute $m+n$.
 
-\subsection{Coordinate Geometry}
-\subsection{Cement Troubles}
+\subsection{Simple Geometry}
+An equilateral triangle is inscribed into a circle of radius 5. The circle has diameter AD, with center O. The equilateral triangle has points ABC lying on distinct points on circle O. The triangle has altitude AF. If two triangles can be drawn, from this. Triangle BDO, and CDO. If the ratio of the areas of these two triangles, to the area of the circle can be expressed as $\frac{a\sqrt{b}\pi}{c}$. Compute a+b+c.
+
+
+
+\subsection{Floor Probability}
+Given the equation $ \lfloor 7x \rfloor + \lfloor 3x \rfloor = 30 $, where $x$ is a rational number in the range $b \leq x < a$, and $a$ and $b$ are rational numbers. We want to compute the probability that any random rational number over the domain $[0, 4]$ lies in the inequality for solutions for $x$.
+
+
 \subsection{Gravity}
-
+It is commonly known that the gravity and trajectory of a projectile can be represented in this form: $h = -16{t^2} + {v_0}t + {h_0}$. Note: t represents the time passed, ${v_0}$ represents the initial velocity,  ${h_0}$ represents the initial launch height, and h represents the overall height in feet after t time. Bob fires a cannonball at an unknown height at a speed of 40 meters per second. Bob attached a sensor on the cannonball to track the maximum height of the cannonball. However, due to his poor vision he isn't completely sure the exact height. Instead he remembers that the maximum height of the cannonball lies between this continuous interval, $[32, 67]$. If the range of values for ${h_0}$, can be expressed over this continuous interval $[a, b]$, where $a$ and $b$ are positive integers, compute $a+b$.
 
 \newpage
-
-\section{Answer Key}
-\subsection{1296}
-\subsection{2262}
-\subsection{4104}
-\subsection{9}
-\subsection{496}
-\subsection{0}
-\subsection{47}
-\subsection{36}
-\subsection{320}
-\subsection{65}
-\subsection{}
-\subsection{51}
-\subsection{}
-\subsection{}
-\subsection{}
-
-\end{document}
