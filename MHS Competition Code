@@ -1,0 +1,145 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{8th Grade Individual}
+\author{Author}
+\date{2024}
+\usepackage{geometry}
+ \geometry{
+ letterpaper,
+ total={215.5mm,278.5mm},
+ left=10mm,
+right=10mm,
+ top=10mm,
+ bottom = 13mm
+ }
+ \usepackage{fancyhdr}
+
+\fancyhead[R]{\thepage}
+
+\begin{document}
+\lhead{Individual Round}
+\chead{}
+\rhead{\thepage}
+\maketitle
+
+\section{Page 1: Header, Page 2-3: Problems, Page 4: Answer Key}
+\newpage
+\subsection{}
+Let $m$ and $n$ be relatively prime and $m$ = $\frac{99^2 + 99}{99*100}$, and $n$ = $\frac{8^3*4^5}{16^5}$. Compute $\frac{m}{n}$
+\subsection{}
+Denote $P(x)$ to be a quadratic polynomial such that: $P(-1) = -44$, $P(2) = -26$ and $P(0) = -24$. Such a quadratic can be expressed as $ax^2+bx+c$, compute $\left| (a+c)*b \right|$
+\subsection{}
+There's a distinct coordinate pair $(x,y)$ that satisfies this system:
+\begin{itemize}
+    \item $4 = \sqrt{x+\sqrt{x+\sqrt{x+\sqrt{x+\sqrt{x...}}}}}$
+    \item $y  = x^3+3x^2-3x+1$
+    \end{itemize}
+Compute the sum of the quotient and remainder when $x*y$ is divided by 1000
+\subsection{}
+In the 3D plane denote $m$ to be the distinct real integral value of $f(x,y,z)$ such that there exists exactly $n$ pairs $(x,y,z)$ that make these 2 equations tangent:
+        
+\begin{itemize}
+    \item $f(x,y,z)$ = $x^2 + y^2 + z^2$    
+    \item $f(x,y,z)$ = $\frac{1}{x^2} + \frac{1}{y^2} + \frac{1}{z^2}$
+    \end{itemize}
+\begin{flushleft}
+    Compute the quotient when $n^m + m^n$ is divided by 8.
+
+\end{flushleft}
+\subsection{}
+The probability that a 4-element subset of $[1,2,3,4,....21]$, has the property that these 4 elements can be arranged into an arithmetic or geometric sequence can be expressed as $\frac{m}{n}$, where $m$ and $n$ are relatively prime. Compute the sum of the quotient and remainder when $m+n$ is divided by 1000.
+
+
+\subsection{}
+A projectile's trajectory can be modeled as $h = -16{t^2} + {v_0}t + {h_0}$. Note: $t$ is the time, ${v_0}$ is initial velocity,  ${h_0}$ is the initial height, and $h$ is the height. Bob fires a cannonball, and the initial velocity is 40 ft/s. Bob tracks the maximum height of the cannonball. However, due to his poor memory, he can't remember the exact height. He recalls that the maximum height is at least $32$ and less than $67$. If the least and max value for ${h_0}$ can be expressed as $m, n$, respectively. Compute $m*n$.
+\subsection{}
+
+Call an integer \textit{lovely}, if it satisfies \textbf{at least 2} of these properties:
+
+% Add an additional line before the 1st condition
+
+
+\begin{itemize}
+    \item Divisible by a positive single-digit prime number
+    
+    \item Is the sum of two integral perfect squares
+    
+    \item Divisible by 13
+\end{itemize}
+
+
+\begin{center}
+    \begin{flushleft}
+    If the probability that an integer is \textit{lovely}, out of the first 100 positive integers, can be written as $\frac{m}{n}$. Compute $m+n$
+    \end{flushleft}
+\end{center}
+\subsection{}
+There's a distinct interval of all possible real values for $x$ satisfying these equations:
+\begin{itemize}
+    \item $y = \lfloor 8x \rfloor +  \lfloor 13x \rfloor $
+    
+    \item $y = 9 $
+\end{itemize}
+ The values of $x$ such that this is true can be written as, $\frac{a}{b}\leq x < \frac{c}{d}$. If $\frac{a}{b} + \frac{c}{d}$ can be written as $\frac{k}{c}$. Compute $k*c$.
+
+\subsection{}
+Let $m$ and $n$ denote the number of triangles formed by using 3 vertices of an equilateral regular hexagon and an octagon. Compute the sum of the quotient and remainder when dividing this product $(m+n)(m-n)$ by 1000.
+
+\subsection{}
+Define a product to be:
+  \begin{itemize}
+    \item $\frac{1}{2*3} * \frac{2}{3*4} * \frac{3}{4*5} * ... * \frac{n}{(n+1)(n+2)}$
+\end{itemize}
+If the product of the first 99 terms can be expressed as $\frac{a}{b!*c}$, where this is the most simplified fraction, and $b!$ is as large as possible, compute $a+b+c$.
+\subsection{}
+Tommy and Thomas are painting a line of $7$ squares, randomly one at a time. Tommy paints each square as either Red or Blue; meanwhile, Thomas paints each square as either Green, Yellow, or Purple. If Tommy goes first there are $m$ ways, meanwhile, if Thomas goes first there are $n$ ways. Compute the sum of the quotient and remainder when $\left| m-n \right|$ is divided by 1000.
+
+\subsection{}
+Label an equilateral triangle $ABC$ with a side length of 15. If we place an inscribed circle in $ABC$, it splits the triangle into 3 areas. Towards each of the vertices circles are infinitely drawn, tangent to the previous circle and two adjacent sides. This is done for all 3 parts of the triangle. The total area of the circles can be expressed as $\frac{m\pi}{n}$. Where m and n are relatively prime integers, compute $m+n$.
+
+\subsection{}
+There’s a clock unlike other clocks, where its hour and minute hands are of equal length and tangent to the circumference of the clock. The first time after midnight where the smaller area enclosed by the clocks is equal to half of the larger area happens after $\frac{a}{b}$ minutes. If the last time this happens is $\frac{m}{n}$ minutes after 11 pm. Compute ($a+b+m+n$).
+
+\subsection{}
+In both figures, the square has a side length of 10. In Figure 1, the \textbf{unshaded} area is denoted as $m_1$ where the semicircle inscribed in the square is the largest possible semicircle, in figure 2 The \textbf{unshaded} area is denoted as $m_2$ if $\left| m_1-m_2 \right|$ can be expressed as $25\pi(a\sqrt{b}-c)$. Compute $(a+b+c)^2$. Note: The relevant figure is under
+\begin{center}
+\includegraphics[scale=0.66]{Figures.png}
+\end{center}
+
+\subsection{}
+Let us denote a positive integer as $m$, and find the least possible value for $m$ such that:
+\begin{itemize}
+    \item Has a remainder of 9 when divided by 13
+    
+    \item Has a remainder of 11 when divided by 23
+    
+    \item Has a remainder of 1 when divided by 5
+\end{itemize}
+Denote another positive integer $n$, such that $m*n$ is a perfect square. Compute the remainder when $m*n$ is divided by $1000$
+
+\title{\textbf{
+\section{ANSWER KEY}
+}}
+
+\subsection{002}
+\subsection{403}
+\subsection{525}
+\subsection{884}
+\subsection{211}
+
+\subsection{294}
+\subsection{129}
+\subsection{650} 
+\subsection{738}
+\subsection{152} 
+
+\subsection{567}
+\subsection{857}
+\subsection{682}
+\subsection{441}
+\subsection{764}
+
+
+
+\end{document}
