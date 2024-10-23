@@ -1,1 +1,1 @@
-Problems I've made by myself to serve as practice problems to other students, supplementing the my school's math team with problems.
+Problems I have created for the 8th grade section of the Metea Honor's Society math compeititon hosted to nearly 50 total students!
